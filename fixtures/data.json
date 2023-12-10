@@ -1,5 +1,495 @@
 [
 {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add years",
+        "content_type": 7,
+        "codename": "add_years"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change years",
+        "content_type": 7,
+        "codename": "change_years"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete years",
+        "content_type": 7,
+        "codename": "delete_years"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view years",
+        "content_type": 7,
+        "codename": "view_years"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add salary",
+        "content_type": 8,
+        "codename": "add_salary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change salary",
+        "content_type": 8,
+        "codename": "change_salary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete salary",
+        "content_type": 8,
+        "codename": "delete_salary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view salary",
+        "content_type": 8,
+        "codename": "view_salary"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add transport assistance",
+        "content_type": 9,
+        "codename": "add_transportassistance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change transport assistance",
+        "content_type": 9,
+        "codename": "change_transportassistance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete transport assistance",
+        "content_type": 9,
+        "codename": "delete_transportassistance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view transport assistance",
+        "content_type": 9,
+        "codename": "view_transportassistance"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add uvt",
+        "content_type": 10,
+        "codename": "add_uvt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change uvt",
+        "content_type": 10,
+        "codename": "change_uvt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete uvt",
+        "content_type": 10,
+        "codename": "delete_uvt"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view uvt",
+        "content_type": 10,
+        "codename": "view_uvt"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$uZuw7rqdF1FZzaDLcqej0D$20sQe+/udJChtBCpV/C8mb475X4jgOHxPQmxodODDGE=",
+        "last_login": "2023-11-27T18:45:50.279Z",
+        "is_superuser": true,
+        "username": "victorz94",
+        "first_name": "",
+        "last_name": "",
+        "email": "zrvictor@outlook.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-10-08T23:42:33.362Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "api",
+        "model": "years"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "api",
+        "model": "salary"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "api",
+        "model": "transportassistance"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "api",
+        "model": "uvt"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gwzsw3ol52gdc7vo1j0mp5c0bv45mteb",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAQwoBL956BzAwgVQNJaVeNd9cmXej2v_f-JiKuS43ryHOckrgILU6_GyE_c9tBemC7d8m9LfNEclfkQYe89ZRf18P9O6g46rcuCjl4hqIDgyveoTPO6EwuMVhls2EVALRjTWRt8kSZEYpV4A2dQbw_7Wo4DQ:1r7gcA:adtQSeyGlt_OTj6HG-qcxZGr0ZsKkm6Gaiy8qVqSn7s",
+        "expire_date": "2023-12-11T18:45:50.292Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "q7h00bb7p1leyh7bzvvi6ustry2g383r",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAQwoBL956BzAwgVQNJaVeNd9cmXej2v_f-JiKuS43ryHOckrgILU6_GyE_c9tBemC7d8m9LfNEclfkQYe89ZRf18P9O6g46rcuCjl4hqIDgyveoTPO6EwuMVhls2EVALRjTWRt8kSZEYpV4A2dQbw_7Wo4DQ:1qwqXZ:DQWhhYD7qoXeB0_vZxjBScYQCZXcGhsVUl16jUcTaos",
+        "expire_date": "2023-11-11T21:08:17.471Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vku3axz52furgcs96k56qleobg54jkyi",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAQwoBL956BzAwgVQNJaVeNd9cmXej2v_f-JiKuS43ryHOckrgILU6_GyE_c9tBemC7d8m9LfNEclfkQYe89ZRf18P9O6g46rcuCjl4hqIDgyveoTPO6EwuMVhls2EVALRjTWRt8kSZEYpV4A2dQbw_7Wo4DQ:1qwqJK:AaI-HProk3zfQgBd-9UfEG2YHPRF5_K3GdoeWpFQNFU",
+        "expire_date": "2023-11-11T20:53:34.922Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wumm0dr3vynzi0sz6qwwvz0cq8y7h64m",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAQwoBL956BzAwgVQNJaVeNd9cmXej2v_f-JiKuS43ryHOckrgILU6_GyE_c9tBemC7d8m9LfNEclfkQYe89ZRf18P9O6g46rcuCjl4hqIDgyveoTPO6EwuMVhls2EVALRjTWRt8kSZEYpV4A2dQbw_7Wo4DQ:1qpdUo:3QEhQ-SdTjKyIiDPR60nwy5QCc3-fAOnLUlS5ZvDku8",
+        "expire_date": "2023-10-22T23:47:38.048Z"
+    }
+},
+{
     "model": "api.years",
     "pk": 1990,
     "fields": {
@@ -359,6 +849,276 @@
         "created_at": "2023-09-25",
         "updated_at": "2023-09-25",
         "value": 42412
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2011,
+    "fields": {
+        "id": "fccd4e2b-8ba9-4222-b5dd-1a25124654f3",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 535600
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2012,
+    "fields": {
+        "id": "407ec5ef-65ff-4ad2-a64c-77d4f1ef59e1",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 566700
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2013,
+    "fields": {
+        "id": "164ed002-aad6-460b-9a50-adc9dfd7befe",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 589500
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2014,
+    "fields": {
+        "id": "340017a5-c7fc-44af-b606-99499f5a453c",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 616000
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2015,
+    "fields": {
+        "id": "e6a6312c-4841-4d67-9dc7-7ac68b4cb326",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 644350
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2016,
+    "fields": {
+        "id": "b549749b-261c-476b-92bb-00fca871d37f",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 689455
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2017,
+    "fields": {
+        "id": "3c4cfcaa-e49e-4f73-a71b-df5275ec75ed",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 737717
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2018,
+    "fields": {
+        "id": "98258df5-34a4-4333-abbc-8384d5da5b05",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 781242
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2019,
+    "fields": {
+        "id": "bfd2c25a-4416-4f74-ae83-ec67e2e55f17",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 828116
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2020,
+    "fields": {
+        "id": "c209ad0e-22aa-472d-8cdd-c41a984ec8f2",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 877803
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2021,
+    "fields": {
+        "id": "2ce74080-fb12-4c0e-be7e-979396449cfc",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 908526
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2022,
+    "fields": {
+        "id": "f9b105bf-84fe-4839-a533-9ca06f4dd7ff",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-10-28",
+        "value": 1000000
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2023,
+    "fields": {
+        "id": "0584bd1e-c62a-4e2a-84f2-37ced910a55d",
+        "created_at": "2023-10-28",
+        "updated_at": "2023-11-27",
+        "value": 1160000
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2010,
+    "fields": {
+        "id": "9b535f50-bf0b-4b89-b192-bc502695024f",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 63600
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2011,
+    "fields": {
+        "id": "eec3ceb7-d40a-4c1b-9b5d-e140d426b654",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 67800
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2012,
+    "fields": {
+        "id": "f6ff00d1-273d-4cb3-b006-9116a276b511",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 70500
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2013,
+    "fields": {
+        "id": "55521f7f-1903-43f9-b9ff-5fd18c02d88b",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 74000
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2014,
+    "fields": {
+        "id": "5848a828-771c-4ce3-9e06-35d15d5f69e1",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 75000
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2015,
+    "fields": {
+        "id": "56241378-04b8-4e3c-9b15-d497d0cb7b95",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 77700
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2016,
+    "fields": {
+        "id": "65c7b804-f56e-41f4-b3e5-136429d3e4d2",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 83140
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2017,
+    "fields": {
+        "id": "5b52ecfa-e350-4836-be32-488127b7bf4d",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 88211
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2018,
+    "fields": {
+        "id": "caf2af80-fac1-4665-a31f-8b02d2675ff9",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 88211
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2019,
+    "fields": {
+        "id": "dd61bf53-0935-44f1-a4bb-443671ce6569",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 97032
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2020,
+    "fields": {
+        "id": "840a7b16-0e3b-4726-9da6-f8687e3ea3da",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 102854
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2021,
+    "fields": {
+        "id": "1dffd937-543f-4a18-bef3-0373b83d0e92",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 106454
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2022,
+    "fields": {
+        "id": "21f8ea71-2605-4ac6-a5b0-24abce7a1af0",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-07",
+        "value": 117172
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2023,
+    "fields": {
+        "id": "16962918-8ea4-4c11-b773-660c7200f705",
+        "created_at": "2023-11-07",
+        "updated_at": "2023-11-27",
+        "value": 140000
     }
 }
 ]
