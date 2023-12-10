@@ -1,0 +1,364 @@
+[
+{
+    "model": "api.years",
+    "pk": 1990,
+    "fields": {
+        "id": "29c87c71-65ce-4c08-9495-39ec371da33d",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1991,
+    "fields": {
+        "id": "295549fe-9405-4049-ba5c-7f2538435728",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1992,
+    "fields": {
+        "id": "7c0cdb91-e252-420a-abb5-6f51d028c918",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1993,
+    "fields": {
+        "id": "644b8fb2-880c-47dc-8127-cc0c662d96d6",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1994,
+    "fields": {
+        "id": "a54cbab7-36dd-480f-acec-8d6262aaf6cd",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1995,
+    "fields": {
+        "id": "423c51aa-78f5-48f5-a8e8-67463fa7cc1d",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1996,
+    "fields": {
+        "id": "70dd3fd4-726f-4b92-896a-d3dc48e36531",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1997,
+    "fields": {
+        "id": "24e4a4c6-8e41-45c2-b3c0-16fbc9cf1005",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1998,
+    "fields": {
+        "id": "aea26986-8993-49aa-8063-b045d1892d7d",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 1999,
+    "fields": {
+        "id": "cf81166a-13eb-4330-bfd2-00f02bcfa8b5",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2000,
+    "fields": {
+        "id": "9441fb07-03c1-4e2b-a7cc-92e0bcb2c4ab",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2001,
+    "fields": {
+        "id": "bb6696f6-1ded-4be4-b7eb-a9df9248e078",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2002,
+    "fields": {
+        "id": "f77c05e8-fe07-4c7f-b610-76a543f2b98c",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2003,
+    "fields": {
+        "id": "533560be-dc92-4504-8eb1-134f27e0f168",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2004,
+    "fields": {
+        "id": "f2615a85-4c93-4405-87e1-4d1eeee5be76",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2005,
+    "fields": {
+        "id": "37c1dfbb-cdff-4ead-818a-e56e88f35132",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2006,
+    "fields": {
+        "id": "f2699ced-c28f-4ac6-b92d-a5c96d799464",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2007,
+    "fields": {
+        "id": "298a0a06-8da2-4253-8f4f-60e827437e93",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2008,
+    "fields": {
+        "id": "9b9a2859-9a73-4b80-a72a-33e0db2f261f",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2009,
+    "fields": {
+        "id": "c440d7ca-1d41-4fca-bc4b-7e19b80c7f96",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2010,
+    "fields": {
+        "id": "884bd5d6-8fd2-405c-bca8-93937d79f060",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2011,
+    "fields": {
+        "id": "9070b47a-7580-4164-94a1-4a70d55634cb",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2012,
+    "fields": {
+        "id": "921317f6-f305-4c96-b69b-a77c1f9c633a",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2013,
+    "fields": {
+        "id": "f4a6d65e-0993-460a-ab28-c58a5e2cd9cd",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2014,
+    "fields": {
+        "id": "d655a4ab-8f98-4e60-b9a4-96ed8353356a",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2015,
+    "fields": {
+        "id": "c12c02b3-eeca-45a0-b1d8-9ff7a99f3f7d",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2016,
+    "fields": {
+        "id": "b9c991a7-d6fc-405d-905c-422aa53d7c4c",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2017,
+    "fields": {
+        "id": "b10bcaf1-e59c-4d17-b4d8-842299e0d4be",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2018,
+    "fields": {
+        "id": "f1a7483d-3b73-4521-958f-9fc28741ee73",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2019,
+    "fields": {
+        "id": "6238f072-9377-4d49-a036-c6998901400e",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2020,
+    "fields": {
+        "id": "998501b2-6956-4823-9731-0695db7b8433",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2021,
+    "fields": {
+        "id": "0b34d648-696d-43e4-aa43-77e4015b6664",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2022,
+    "fields": {
+        "id": "fa3b24ca-a1b9-45d7-942c-5fbe337b35fc",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.years",
+    "pk": 2023,
+    "fields": {
+        "id": "54907882-966f-4c25-988d-5a6615e2ff62",
+        "created_at": "2023-09-25"
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2015,
+    "fields": {
+        "id": "70dcb20c-2ca5-4735-97e0-e61896d94c5d",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 27485
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2016,
+    "fields": {
+        "id": "339b01be-423b-473e-a088-080e1752cb33",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 29753
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2017,
+    "fields": {
+        "id": "6b3e0d0b-a88b-401b-a241-f88879033f5d",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 31859
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2018,
+    "fields": {
+        "id": "5f2cbe4d-206d-46f8-a517-739ae7dce4be",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 33156
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2019,
+    "fields": {
+        "id": "ba845e95-0afe-4cd2-9f3e-d06a42066eee",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 34270
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2020,
+    "fields": {
+        "id": "006be14e-16b4-4fc2-92d8-f2f1534b736e",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 35607
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2021,
+    "fields": {
+        "id": "3eb40696-7ac7-4007-9a19-de005e030943",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 36308
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2022,
+    "fields": {
+        "id": "9f750ba6-1d04-4dbd-a081-fbb2e7a80f9c",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 37413
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2023,
+    "fields": {
+        "id": "2684d2d9-09f1-4d38-a4b1-0fb162279ddf",
+        "created_at": "2023-09-25",
+        "updated_at": "2023-09-25",
+        "value": 42412
+    }
+}
+]
