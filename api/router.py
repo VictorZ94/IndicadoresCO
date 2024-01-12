@@ -3,10 +3,12 @@ from .views import (
     UVTModelViewSet,
     SalaryModelViewSet,
     TransportAssistanceModelViewSet,
-    USDViewSet
+    USDViewSet,
+    YearModelViewSet,
 )
 
 router = DefaultRouter()
+router.register(prefix='year', viewset=YearModelViewSet, basename='usd')
 router.register(prefix='uvt', viewset=UVTModelViewSet, basename='uvt')
 router.register(prefix='salary', viewset=SalaryModelViewSet, basename='salary')
 router.register(
