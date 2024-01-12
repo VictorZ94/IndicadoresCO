@@ -10,10 +10,10 @@ import requests
 from lxml import html
 
 # @Model
-from .models import Uvt, Salary, TransportAssistance
+from .models import Uvt, Salary, TransportAssistance, Years
 
 # @Serializer
-from .serializers import UVTSerializer, SalarySerializer, TransportAssistanceSerializer
+from .serializers import UVTSerializer, SalarySerializer, TransportAssistanceSerializer, YearSerializer
 
 
 class UVTModelViewSet(ModelViewSet):
@@ -60,3 +60,10 @@ class USDViewSet(ViewSet):
         num = num.replace('.', '')
         num = num.replace(',', '.')
         return num
+
+
+class YearModelViewSet(ModelViewSet):
+    serializer_class = YearSerializer
+    queryset = Years.objects.all()
+    permission_classes = [IsAuthenticatedOrReadOnly]
+    http_method_names = ["post"]
