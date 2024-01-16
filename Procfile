@@ -1,0 +1,1 @@
+web: gunicorn indicadores_api.wsgi --log-file -

@@ -2,13 +2,17 @@ asgiref==3.7.2
 backports.zoneinfo==0.2.1
 certifi==2023.11.17
 charset-normalizer==3.3.2
+dj-database-url==2.1.0
 Django==4.2.5
 djangorestframework==3.14.0
 drf-yasg==1.21.7
+gunicorn==21.2.0
 idna==3.6
 inflection==0.5.1
 lxml==4.9.3
 packaging==23.2
+psycopg2==2.9.9
+python-decouple==3.8
 pytz==2023.3.post1
 PyYAML==6.0.1
 requests==2.31.0
@@ -16,3 +20,4 @@ sqlparse==0.4.4
 typing-extensions==4.8.0
 uritemplate==4.1.1
 urllib3==2.1.0
+whitenoise==6.6.0
