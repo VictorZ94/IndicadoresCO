@@ -364,7 +364,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$600000$uZuw7rqdF1FZzaDLcqej0D$20sQe+/udJChtBCpV/C8mb475X4jgOHxPQmxodODDGE=",
-        "last_login": "2023-11-27T18:45:50.279Z",
+        "last_login": "2024-01-12T18:36:40.117Z",
         "is_superuser": true,
         "username": "victorz94",
         "first_name": "",
@@ -455,6 +455,14 @@
     "fields": {
         "app_label": "api",
         "model": "uvt"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "45kvvunpvrb1p24bbm93ca0x79bykxrs",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hAQwoBL956BzAwgVQNJaVeNd9cmXej2v_f-JiKuS43ryHOckrgILU6_GyE_c9tBemC7d8m9LfNEclfkQYe89ZRf18P9O6g46rcuCjl4hqIDgyveoTPO6EwuMVhls2EVALRjTWRt8kSZEYpV4A2dQbw_7Wo4DQ:1rOMOW:5K3k2cogUA-H2sh-TQ9UOQVEI8dHPjSWNGSSRjX0SSM",
+        "expire_date": "2024-01-26T18:36:40.135Z"
     }
 },
 {
@@ -762,6 +770,14 @@
     }
 },
 {
+    "model": "api.years",
+    "pk": 2024,
+    "fields": {
+        "id": "ef68f47a-d57d-4ecb-be42-af55b3a7db78",
+        "created_at": "2024-01-12"
+    }
+},
+{
     "model": "api.uvt",
     "pk": 2015,
     "fields": {
@@ -849,6 +865,16 @@
         "created_at": "2023-09-25",
         "updated_at": "2023-09-25",
         "value": 42412
+    }
+},
+{
+    "model": "api.uvt",
+    "pk": 2024,
+    "fields": {
+        "id": "137d60a9-145b-45c1-8cbf-b1a9a39abcfa",
+        "created_at": "2024-01-12",
+        "updated_at": "2024-01-12",
+        "value": 47065
     }
 },
 {
@@ -979,6 +1005,16 @@
         "created_at": "2023-10-28",
         "updated_at": "2023-11-27",
         "value": 1160000
+    }
+},
+{
+    "model": "api.salary",
+    "pk": 2024,
+    "fields": {
+        "id": "aa30d7b2-6725-4323-8580-c0033ca88d33",
+        "created_at": "2024-01-12",
+        "updated_at": "2024-01-12",
+        "value": 1300000
     }
 },
 {
@@ -1119,6 +1155,16 @@
         "created_at": "2023-11-07",
         "updated_at": "2023-11-27",
         "value": 140000
+    }
+},
+{
+    "model": "api.transportassistance",
+    "pk": 2024,
+    "fields": {
+        "id": "6cd09d45-e883-4846-9a3e-108b2fce67b2",
+        "created_at": "2024-01-12",
+        "updated_at": "2024-01-12",
+        "value": 162000
     }
 }
 ]
