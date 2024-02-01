@@ -28,7 +28,18 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["127.0.0.1"]
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'http://127.0.0.1:5173'
+]
+
+CORS_ALLOW_METHODS = (
+    "GET",
+    "POST",
+    "PUT",
+)
 
 # Application definition
 
@@ -41,7 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'drf_yasg',
     'rest_framework',
-    'api'
+    'api',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +65,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'indicadores_api.urls'
@@ -79,20 +93,20 @@ WSGI_APPLICATION = 'indicadores_api.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
-    'default': config(
-        'DATABASE_URL',
-        default=BASE_DIR / 'db.sqlite3',
-        cast=db_url
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
+
+# DATABASES = {
+#     'default': config(
+#         'DATABASE_URL',
+#         default=BASE_DIR / 'db.sqlite3',
+#         cast=db_url
+#     )
+# }
 
 
 # Password validation
