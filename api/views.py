@@ -66,4 +66,4 @@ class YearModelViewSet(ModelViewSet):
     serializer_class = YearSerializer
     queryset = Years.objects.all()
     permission_classes = [IsAuthenticatedOrReadOnly]
-    http_method_names = ["post"]
+    http_method_names = ["post", "get"]

@@ -1,4 +1,4 @@
-import { Badge, Sidebar } from "flowbite-react";
+import { Badge, DarkThemeToggle, Sidebar } from "flowbite-react";
 import {
   HiArrowSmRight,
   HiChartPie,
@@ -9,16 +9,22 @@ import {
 } from "react-icons/hi";
 import { Outlet } from "react-router-dom";
 import SidebarItem from "./SidebarItem";
+import { MdSpaceDashboard } from "react-icons/md";
 
 const SideNavbar = () => {
+  const date = new Date();
+
   return (
     <div className="flex">
-      <Sidebar
-        aria-label="Sidebar with call to action button example"
-        className="h-screen"
-      >
+      <Sidebar className="h-screen">
         <Sidebar.Items>
           <Sidebar.ItemGroup>
+            <SidebarItem
+              href={`dashboard/${date.getFullYear()}`}
+              icon={<MdSpaceDashboard className="nav-icon" />}
+            >
+              Dashboard
+            </SidebarItem>
             <SidebarItem href="salario" icon={<HiTable className="nav-icon" />}>
               Salario Minimo
             </SidebarItem>
@@ -81,7 +87,12 @@ const SideNavbar = () => {
         </Sidebar.CTA>
       </Sidebar>
       <div className="px-8 w-full">
-        <Outlet />
+        <div className="text-right py-4">
+          <DarkThemeToggle />
+        </div>
+        <div className="px-24">
+          <Outlet />
+        </div>
       </div>
     </div>
   );

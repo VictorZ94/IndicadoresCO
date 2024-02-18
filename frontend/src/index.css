@@ -11,5 +11,9 @@
 }
 
 .active {
-  @apply bg-blue-500 hover:bg-blue-500 text-white transition duration-75
+  @apply bg-blue-500 hover:bg-blue-500 text-white transition duration-75 font-semibold
+}
+
+.active svg {
+  fill: white;
 }

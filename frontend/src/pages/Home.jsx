@@ -3,7 +3,7 @@ import BasicDataTable from "../components/BasicDataTable";
 const Home = () => {
   return (
     <div>
-      <BasicDataTable title="Salario Minimo"></BasicDataTable>
+      <BasicDataTable title="Salario mínimo"></BasicDataTable>
     </div>
   );
 };
