@@ -1,21 +1,18 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useNavigate } from "react-router-dom";
 import Select from "react-select";
 
 const Dashboard = () => {
+  const date = new Date();
   const [allYears, setYearsSelected] = useState([]);
-  const [yearSelected, setYearSelected] = useState([
-    { value: 2024, label: 2024 },
-  ]);
+  const [yearSelected, setYearSelected] = useState(date.getFullYear());
   const formatter = new Intl.NumberFormat("es-CO", {
     style: "currency",
     currency: "COP",
     maximumFractionDigits: 0,
   });
+  const [data, setData] = useState({});
 
-  const navigate = useNavigate();
-
-  const { salary, uvt, transport } = useLoaderData();
+  const { salary, uvt, transport } = data;
 
   useEffect(() => {
     const fetchYears = async () => {
@@ -36,6 +33,38 @@ const Dashboard = () => {
     fetchYears();
   }, []);
 
+  useEffect(() => {
+    const fetchApi = async () => {
+      // call salary api
+      const salary = await fetch(
+        `http://127.0.0.1:8000/api/salary/${yearSelected}/`
+      );
+      const dataSalary = await salary.json();
+
+      // call tranport asistance api
+      const assistance = await fetch(
+        `http://127.0.0.1:8000/api/transport-assistance/${yearSelected}/`
+      );
+      const dataAssistance = await assistance.json();
+
+      // call tranport asistance api
+      const uvt = await fetch(`http://127.0.0.1:8000/api/uvt/${yearSelected}/`);
+      const dataUvt = await uvt.json();
+
+      // console.log({
+      //   salary: dataSalary,
+      //   transport: dataAssistance,
+      //   uvt: dataUvt,
+      // });
+      setData({
+        salary: dataSalary,
+        transport: dataAssistance,
+        uvt: dataUvt,
+      });
+    };
+    fetchApi();
+  }, [yearSelected]);
+
   return (
     <div>
       <h1 className="text-4xl font-semibold dark:text-white">
@@ -45,8 +74,8 @@ const Dashboard = () => {
         <div className="max-w-xs">
           <Select
             options={allYears}
-            value={yearSelected[0]}
-            onChange={(year) => setYearSelected(year)}
+            value={{ label: yearSelected, value: yearSelected }}
+            onChange={(year) => setYearSelected(year.label)}
           ></Select>
         </div>
       </div>
