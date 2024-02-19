@@ -17,38 +17,8 @@ export const router = createBrowserRouter([
     element: <SideNavbar />,
     children: [
       {
-        path: "dashboard/:year",
+        path: "dashboard",
         element: <Dashboard />,
-        loader: async ({ params }) => {
-          // call salary api
-          const salary = await fetch(
-            `http://127.0.0.1:8000/api/salary/${params.year}/`
-          );
-          const dataSalary = await salary.json();
-
-          // call tranport asistance api
-          const assistance = await fetch(
-            `http://127.0.0.1:8000/api/transport-assistance/${params.year}/`
-          );
-          const dataAssistance = await assistance.json();
-
-          // call tranport asistance api
-          const uvt = await fetch(
-            `http://127.0.0.1:8000/api/uvt/${params.year}/`
-          );
-          const dataUvt = await uvt.json();
-
-          // console.log({
-          //   salary: dataSalary,
-          //   transport: dataAssistance,
-          //   uvt: dataUvt,
-          // });
-          return {
-            salary: dataSalary,
-            transport: dataAssistance,
-            uvt: dataUvt,
-          };
-        },
       },
       {
         path: "salario",
