@@ -12,15 +12,13 @@ import SidebarItem from "./SidebarItem";
 import { MdSpaceDashboard } from "react-icons/md";
 
 const SideNavbar = () => {
-  const date = new Date();
-
   return (
     <div className="flex">
       <Sidebar className="h-screen">
         <Sidebar.Items>
           <Sidebar.ItemGroup>
             <SidebarItem
-              href={`dashboard/${date.getFullYear()}`}
+              href="dashboard"
               icon={<MdSpaceDashboard className="nav-icon" />}
             >
               Dashboard
