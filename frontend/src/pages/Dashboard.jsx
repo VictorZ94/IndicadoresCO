@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Select from "react-select";
+import AreaChart from "../components/AreaChart";
 
 const Dashboard = () => {
   const date = new Date();
@@ -92,6 +93,14 @@ const Dashboard = () => {
           <h3>UVT</h3>
           <p className=" text-2xl">{formatter.format(uvt?.value)}</p>
         </div>
+      </div>
+      <div className="py-10">
+        <AreaChart
+          years={allYears
+            .map((year) => year.value)
+            .filter((year) => year >= 2010)
+            .reverse()}
+        />
       </div>
     </div>
   );
