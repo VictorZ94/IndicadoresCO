@@ -25,6 +25,8 @@ ChartJS.register(
 
 const options = {
   responsive: true,
+  normalized: true,
+  maintainAspectRatio: false,
   plugins: {
     legend: {
       position: "top",
@@ -39,6 +41,7 @@ const options = {
 const AreaChart = ({ years }) => {
   const [salaryData, setSalaryData] = useState([]);
   const [transportData, setTransportData] = useState([]);
+  const [uvtData, setUvtData] = useState([]);
 
   const GetSaralyData = async () => {
     const res = await fetch("http://127.0.0.1:8000/api/salary/");
@@ -54,14 +57,29 @@ const AreaChart = ({ years }) => {
     setTransportData(data.map((year) => year.value));
   };
 
+  const GetUvtData = async () => {
+    const res = await fetch("http://127.0.0.1:8000/api/uvt/");
+    const data = await res.json();
+    data.sort((a, b) => a.value - b.value);
+    setUvtData(data.map((year) => year.value));
+  };
+
   useEffect(() => {
     GetSaralyData();
     GetTransportData();
+    GetUvtData();
   }, []);
 
   const dataChart = {
     labels: years,
     datasets: [
+      {
+        fill: true,
+        label: "Uvt",
+        data: uvtData,
+        borderColor: "rgb(201, 203, 207)",
+        backgroundColor: "rgba(201, 203, 207, 0.2)",
+      },
       {
         fill: true,
         label: "Salario",
@@ -79,7 +97,7 @@ const AreaChart = ({ years }) => {
     ],
   };
 
-  return <Line options={options} data={dataChart}></Line>;
+  return <Line options={options} data={dataChart} className="h-[500px]"></Line>;
 };
 
 export default AreaChart;
