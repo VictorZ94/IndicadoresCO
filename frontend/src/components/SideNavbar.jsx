@@ -18,7 +18,7 @@ const SideNavbar = () => {
         <Sidebar.Items>
           <Sidebar.ItemGroup>
             <SidebarItem
-              href="dashboard"
+              href="/"
               icon={<MdSpaceDashboard className="nav-icon" />}
             >
               Dashboard
