@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
     element: <SideNavbar />,
     children: [
       {
-        path: "dashboard",
+        path: "/",
         element: <Dashboard />,
       },
       {
