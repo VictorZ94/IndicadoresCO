@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import Select from "react-select";
-import AreaChart from "../components/AreaChart";
+import React, { Suspense, useEffect, useState } from "react";
+// import Select from "react-select";
+// import AreaChart from "../components/AreaChart";
 
 const Dashboard = () => {
   const date = new Date();
@@ -66,18 +66,21 @@ const Dashboard = () => {
     fetchApi();
   }, [yearSelected]);
 
+  const LazyAreaChart = React.lazy(() => import("../components/AreaChart"));
+  const LazySelect = React.lazy(() => import("react-select"));
+
   return (
-    <div>
+    <Suspense fallback={<div>Loading...</div>}>
       <h1 className="text-4xl font-semibold dark:text-white">
         Indicadores Colombia Dashboard
       </h1>
       <div className="my-5">
         <div className="max-w-xs">
-          <Select
+          <LazySelect
             options={allYears}
             value={{ label: yearSelected, value: yearSelected }}
             onChange={(year) => setYearSelected(year.label)}
-          ></Select>
+          ></LazySelect>
         </div>
       </div>
       <div className=" grid grid-cols-3 gap-4">
@@ -95,14 +98,14 @@ const Dashboard = () => {
         </div>
       </div>
       <div className="py-10">
-        <AreaChart
+        <LazyAreaChart
           years={allYears
             .map((year) => year.value)
             .filter((year) => year >= 2010)
             .reverse()}
         />
       </div>
-    </div>
+    </Suspense>
   );
 };
 
