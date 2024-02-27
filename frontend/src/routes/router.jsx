@@ -5,16 +5,16 @@ import Home from "../pages/Home";
 import AuxilioTransporte from "../pages/AuxilioTransporte";
 
 // @components
-import SideNavbar from "../components/SideNavbar";
 import Uvt from "../pages/Uvt";
 import Trm from "../pages/Trm";
 import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
+import Layout from "../layout/Layout";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <SideNavbar />,
+    element: <Layout />,
     children: [
       {
         path: "/",
