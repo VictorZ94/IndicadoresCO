@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useCallback, useEffect, useState } from "react";
 // import Select from "react-select";
 // import AreaChart from "../components/AreaChart";
 
@@ -83,14 +83,14 @@ const Dashboard = () => {
           ></LazySelect>
         </div>
       </div>
-      <div className=" grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="bg-gradient-to-r from-cyan-500 shadow-xl to-blue-500 space-y-5 border-2 rounded-3xl p-5 max-w-sm text-center text-white font-bold">
           <h3>Salario Mínimo</h3>
           <p className="text-2xl">{formatter.format(salary?.value)}</p>
         </div>
         <div className="bg-gradient-to-r space-y-5  shadow-xl border-2 rounded-3xl p-5 from-green-500 to-cyan-500 max-w-sm text-center text-white font-bold">
           <h3>Auxilio de transporte</h3>
-          <p className=" text-2xl">{formatter.format(transport?.value)}</p>
+          <p className="text-2xl">{formatter.format(transport?.value)}</p>
         </div>
         <div className="bg-gradient-to-r from-red-500 shadow-xl to-yellow-500 space-y-5 border-2 rounded-3xl p-5  max-w-sm text-center text-white font-bold">
           <h3>UVT</h3>
