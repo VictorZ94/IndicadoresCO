@@ -24,9 +24,7 @@ ChartJS.register(
 );
 
 const options = {
-  responsive: true,
   normalized: true,
-  maintainAspectRatio: false,
   plugins: {
     legend: {
       position: "top",
@@ -97,7 +95,7 @@ const AreaChart = ({ years }) => {
     ],
   };
 
-  return <Line options={options} data={dataChart} className="h-[500px]"></Line>;
+  return <Line options={options} data={dataChart}></Line>;
 };
 
 export default AreaChart;
