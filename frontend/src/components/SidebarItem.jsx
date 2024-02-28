@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import React from "react";
 
 const SidebarItem = ({ children, href, icon }) => {
   return (
